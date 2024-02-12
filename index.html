@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="header">
+			<h1>The Shire Grocers - Shopping List</h1>
+			<img src="https://i.pinimg.com/564x/97/05/d6/9705d6448fe58c8c7474af9ef4852689.jpg">
+		</div>
+		<form action="/" method="POST">
+			<div class="grid">
+				<div class="card">
+					<h3>Food:</h3>
+					<div><label>Mushroom pies <input type="number" name="mushroom-pies"></label></div>
+					<div><label>Seed-cakes <input type="number" name="seed-cakes"></label></div>
+					<div><label>Roast pork <input type="number" name="roast-pork"></label></div>
+					<div><label>Berry pie <input type="number" name="berry-pie"></label></div>
+					<div><label>Crusty bread <input type="number" name="crusty-bread"></label></div>
+				</div>
+				<div class="card">
+					<h3>Drinks:</h3>
+					<div><label>Barley wine <input type="number" name="barley-wine"></label></div>
+					<div><label>Elderberry wine <input type="number" name="elderberry-wine"></label></div>
+					<div><label>Cider <input type="number" name="cider"></label></div>
+					<div><label>Mint tea <input type="number" name="mint-tea"></label></div>
+					<div><label>Buttermilk <input type="number" name="buttermilk"></label></div>
+				</div>
+				<div class="card">
+					<h3>Delivery instructions:</h3>
+					<div><label><input type="radio" name="delivery" value="front">Front door</label></div>
+					<div><label><input type="radio" name="delivery" value="back">Back door</label></div>
+				</div>
+				<div class="card">
+					<h3>Payment options:</h3>
+					<div><label><input type="radio" name="payment" value="gold">Gold</label></div>
+					<div><label><input type="radio" name="payment" value="pipeweed">Pipeweed trade</label></div>
+				</div>
+				<div class="card">
+					<h3>Confirmation</h3>
+					<input type="checkbox" id="confirmation">
+					<label for="confirmation">I understand once this order is placed, cancellations will be at the penalty of dragon fire.</label>
+					<div>
+						<button>Submit order</button>
+					</div>
+				</div>
+				<div>
+				</div>
+			</div>
+		</form>
+	</div>
+
+</html>
+
+
+
+</body>
+</html>

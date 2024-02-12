@@ -1,0 +1,84 @@
+body {
+	background-image: url(https://static.vecteezy.com/system/resources/previews/008/147/443/original/summer-landscape-background-field-or-meadow-with-green-grass-flowers-and-hills-blue-sky-with-many-clouds-and-a-path-through-the-hill-farm-and-countryside-landscapes-illustration-10-eps-free-vector.jpg);
+	padding: 30px;
+}
+
+.container {
+	background-color: rgba(255, 255, 255, .5);
+	padding: 30px;
+	border-radius: 16px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.header {
+	text-align: center;
+	word-break: break-word;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+.card {
+	background-color: rgba(255, 255, 255, .5);
+	padding: 30px;
+	border-radius: 16px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+h1 {
+	font-size: 48px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+label {
+	font-weight: bold;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+img {
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	margin-bottom: 24px;
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/* Write your media queries below */
+@media (max-width: 500px) {
+  .grid {
+   grid-template-columns: repeat(1, 1fr);
+    ...
+  }
+}
+
+@media (max-width: 750px) {
+  .grid {
+   grid-template-columns: repeat(1, 1fr);
+    ...
+  }
+}
+
+@media (min-width: 750px) {
+  .grid {
+   grid-template-columns: repeat(2, 1fr);
+    ...
+  }
+}
+
+@media (min-width: 900px) {
+  .grid {
+   grid-template-columns: repeat(3, 1fr);
+    ...
+  }
+}
