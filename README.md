@@ -1,1 +1,1 @@
-# c1-media-queries
+# Correlation One Software Development Course Media Queries Lesson
